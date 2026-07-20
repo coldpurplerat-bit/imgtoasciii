@@ -1,26 +1,20 @@
 # Image to ASCII Art Generator
 
-A Python script that converts any local image into ASCII art using the `Pillow` library.
-
-The program converts image pixels into grayscale values and maps them to ASCII characters to create text-based artwork.
+A Python script that converts a local image into ASCII art using the `Pillow` library.
 
 ## Preview
 
-### Original Image
+The following example shows the conversion of `download.jpg` into ASCII art.
+
+### Original Image (`download.jpg`)
 
 ![Original Image](./download.jpg)
 
-### ASCII Output Preview
+### ASCII Output (`g.png`)
 
 ![ASCII Output](./g.png)
 
-Text output:
-
-[View ASCII Output](./ascii_image.txt)
-
----
-
-## How To Run
+## How to Run
 
 ### Install dependency
 
@@ -34,30 +28,14 @@ pip install Pillow
 python3 ascii.py
 ```
 
-Enter the path of the image when prompted:
-
-Example:
+Enter the image path when prompted:
 
 ```
-Enter the image path: /home/user/Pictures/image.jpg
+Enter the image path: /path/to/image.jpg
 ```
 
-or:
-
-```
-Enter the image path: download.jpg
-```
-
-The generated ASCII art will be saved as:
-
-```
-ascii_image.txt
-```
-
----
+The ASCII art will be printed in the terminal.
 
 ## About
 
-This project was built while following a Python guide by Kite. Their core logic was used as a learning reference for image pixel manipulation, grayscale conversion, and working with external libraries.
-
-The project was customized to allow users to convert any local image into ASCII art.
+A simple project to practice image processing and working with Python libraries.
